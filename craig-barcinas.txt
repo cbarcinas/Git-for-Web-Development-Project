@@ -1,0 +1,77 @@
+https://codepen.io/cbarcinas/pen/MWeVbqd?editors=1100
+
+
+1. What is Semantic HTML? 
+    2. What is HTML used for? 
+        - it is used to display content in the browser
+    3. What is an attribute and where do we put it? 
+        - gives information about HTML elements
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        - h1 is a heading tag, it should only be used once on a page
+    5. Name two tags that have required attributes
+        - a / img
+    6. What do we put in the head of our HTML document? 
+        - the name of the page, meta tags and you also link external style sheets
+    7. What is an id? 
+        - a super specific way to target an element in your html
+    8. What elements can I add an id to? 
+        - any and all
+    9. How many times can I use the same id on a page? 
+        - once
+    10. What is a class? 
+        - it is used to target one or more html elements
+    11. What elements can I add a class to? 
+        - as many as you want
+    12. How many times can I use the same class on a page? 
+        - multiple times
+    13. How do I get my link to open in a new tab?
+        - target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+        - it is used to name the image if the image cannot be loaded.
+    15. How do I reference an id?
+        - #
+    16. What is the difference between a section and a div 
+        - section is defines a specific area/length of the html document,
+            div is empty container that can have any type of content in it & it can also be positioned anywhere in document flow.
+    17. What is CSS used for? 
+        - styling html
+    18. How to we select an element? Example - every h2 on the page
+        - h2 {          
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        - class can be added to multiple p tags so that you can give all p tags the same styling io.e margin & padding.
+        - id is used to target with JS
+    20. How do we select classes in CSS?
+        -    .class-name{
+        }
+    21. How do we select a p element with a single class of “human””?
+        - .human
+    22. What is a parent child selector? When would this be useful? 
+        - .wapper h1 , has better specificity 
+    23. How do you select all links within a div with the class of sidebar?
+        - .sidebar a {          
+        }
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    Box model consists of the content padding margin and border in that order. It's a box, content would be in the text, img, etc in the center.
