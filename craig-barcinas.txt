@@ -66,17 +66,17 @@ https://codepen.io/cbarcinas/pen/MWeVbqd?editors=1100
     30. How do I write a comment in CSS?
         - /* comment */
     31. How do I find out what file I am in, when I am using the command line?  
-        - ls
+        - git status
     32. Using the command line - how do I see a list of files/folders in my current folder?
         - ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-        -
+        - git rm, you can delete importnat system files if youre not careful
     34. Why should I use version control? 
         - they allow the team to keep track of all changes and work on the same file 
     35. How often should I commit to github?
-        -  a lot
+        -  a lot, after a line of code
     36. What is the command we would use to push our repo up to github? 
-        - 
+        - git push
     37. Walk me through Lambda's git flow. 
         - 
 
