@@ -72,20 +72,26 @@ https://codepen.io/cbarcinas/pen/MWeVbqd?editors=1100
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
         - git rm, you can delete importnat system files if youre not careful
     34. Why should I use version control? 
-        - they allow the team to keep track of all changes and work on the same file 
+        - they allow the team to keep track of all changes and work on the same file/ files
     35. How often should I commit to github?
         -  a lot, after a line of code
     36. What is the command we would use to push our repo up to github? 
         - git push
     37. Walk me through Lambda's git flow. 
-        - 
+        - fork repo > clone > add reviewer > cd into your project > checkout branch under your 'firstname-lastname' > make changes > Check status to make sure everything is working properly > add a file name with 'git add file.css(any file type), commit changes, push to origin (firstname-lastname)
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        - block takes up 100% of the width, inline block does not and can be on the same line as other inline elements
     2. What happens when an element is positioned absolutely? 
+        - it is positioned based on it's parent container and can be specifically set on the page. It will also ignore the document flow.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        - give it display: block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - block = article, aside, div
+          inline = a, button
+          inline-block = img
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
     Box model consists of the content padding margin and border in that order. It's a box, content would be in the text, img, etc in the center.
