@@ -1,7 +1,8 @@
 https://codepen.io/cbarcinas/pen/MWeVbqd?editors=1100
 
 
-1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+        - decribles element's meaning to the browser and dev.
     2. What is HTML used for? 
         - it is used to display content in the browser
     3. What is an attribute and where do we put it? 
@@ -43,11 +44,11 @@ https://codepen.io/cbarcinas/pen/MWeVbqd?editors=1100
         - id is used to target with JS
     20. How do we select classes in CSS?
         -    .class-name{
-        }
+             }
     21. How do we select a p element with a single class of “human””?
-        - .human
+        - p.human / .human
     22. What is a parent child selector? When would this be useful? 
-        - .wapper h1 , has better specificity 
+        - '>' , it has better specificity 
     23. How do you select all links within a div with the class of sidebar?
         - .sidebar a {          
         }
@@ -62,15 +63,15 @@ https://codepen.io/cbarcinas/pen/MWeVbqd?editors=1100
     28. How do I add a 1px border around my div that is dotted and black?
         - border: dotted 1px black
     29. How do I select everything on the page? 
-        - target the body,html
+        - *
     30. How do I write a comment in CSS?
         - /* comment */
     31. How do I find out what file I am in, when I am using the command line?  
-        - git status
+        - pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
         - ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-        - git rm, you can delete importnat system files if youre not careful
+        - rm, you can delete important system files if you're not careful
     34. Why should I use version control? 
         - they allow the team to keep track of all changes and work on the same file/ files
     35. How often should I commit to github?
